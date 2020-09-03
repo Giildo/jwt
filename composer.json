@@ -1,5 +1,5 @@
 {
-  "name": "giildo/jwt",
+  "name": "jojotique/jwt",
   "type": "symfony-bundle",
   "license": "MIT",
   "version": "0.1.0",
