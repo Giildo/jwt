@@ -16,7 +16,10 @@ class JojotiqueJWTExtension extends Extension
         array $configs,
         ContainerBuilder $container
     ) {
-        $loader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config/services.yaml'));
+        $loader = new YamlFileLoader(
+            $container,
+            new FileLocator(__DIR__ . '/../Resources/config')
+        );
         $loader->load('services.yaml');
     }
 }
