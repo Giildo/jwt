@@ -1,0 +1,20 @@
+{
+  "name": "giildo/jwt",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "JWT generator",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Giildo",
+      "email": "giildo.jm@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Jojotique\\JWT\\": "src/"
+    }
+  }
+}
