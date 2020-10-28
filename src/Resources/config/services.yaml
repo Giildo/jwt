@@ -10,4 +10,5 @@ services:
     public: true
 
   Jojotique\JWT\Resources\JsonWebToken:
+    autowire: false
     public: true
