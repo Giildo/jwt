@@ -9,6 +9,11 @@ services:
   Jojotique\JWT\Resources\JWTValidationHelper:
     public: true
 
+  Jojotique\JWT\Resources\JWTApiAuthorization:
+    public: true
+    arguments:
+      $JWTValidationHelper: '@Jojotique\JWT\Resources\JWTBuilder'
+
   Jojotique\JWT\Resources\JsonWebToken:
     autowire: false
     public: true
