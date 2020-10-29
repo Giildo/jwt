@@ -12,7 +12,7 @@ services:
   Jojotique\JWT\Resources\JWTApiAuthorization:
     public: true
     arguments:
-      $JWTValidationHelper: '@Jojotique\JWT\Resources\JWTBuilder'
+      $JWTValidationHelper: '@Jojotique\JWT\Resources\JWTValidationHelper'
 
   Jojotique\JWT\Resources\JsonWebToken:
     autowire: false
