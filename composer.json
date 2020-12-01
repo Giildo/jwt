@@ -2,7 +2,7 @@
   "name": "jojotique/jwt",
   "type": "symfony-bundle",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JWT generator",
   "minimum-stability": "stable",
   "authors": [
@@ -12,7 +12,7 @@
     }
   ],
   "require": {
-    "php": "^7.4",
+    "php": ">=7.4",
     "ext-json": "*",
     "jojotique/api": "^1.2",
     "nelmio/api-doc-bundle": "^3.5",
