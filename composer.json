@@ -2,7 +2,7 @@
   "name": "jojotique/jwt",
   "type": "symfony-bundle",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "JWT generator",
   "minimum-stability": "stable",
   "authors": [
