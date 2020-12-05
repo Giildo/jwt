@@ -3,9 +3,8 @@
 namespace Jojotique\JWT\Resources;
 
 use Exception;
-use Jojotique\Api\Domain\Output\Interfaces\OutInterface;
 
-class AuthorizationException extends Exception implements OutInterface
+class AuthorizationException extends Exception
 {
     /**
      * @var array|null

@@ -3,6 +3,9 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
+  Jojotique\JWT\Exception\TokenException:
+    public: true
+
   Jojotique\JWT\Resources\JWTBuilder:
     public: true
 

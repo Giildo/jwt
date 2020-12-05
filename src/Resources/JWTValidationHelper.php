@@ -2,9 +2,9 @@
 
 namespace Jojotique\JWT\Resources;
 
+use Jojotique\JWT\Exception\TokenException;
 use Jojotique\JWT\Resources\Interfaces\JsonWebTokenInterface;
 use Jojotique\JWT\Resources\Interfaces\JWTValidationHelperInterface;
-use Jojotique\Api\Application\Helper\TokenException;
 
 class JWTValidationHelper implements JWTValidationHelperInterface
 {

@@ -2,10 +2,10 @@
 
 namespace Jojotique\JWT\Resources;
 
+use Jojotique\JWT\Exception\TokenException;
 use Jojotique\JWT\Resources\Interfaces\JsonWebTokenInterface;
 use Jojotique\JWT\Resources\Interfaces\JWTApiAuthorizationInterface;
 use Jojotique\JWT\Resources\Interfaces\JWTValidationHelperInterface;
-use Jojotique\Api\Application\Helper\TokenException;
 
 class JWTApiAuthorization implements JWTApiAuthorizationInterface
 {
